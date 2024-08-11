@@ -4,7 +4,9 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 import contains_duplicate
+import valid_anagram
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print(contains_duplicate.solution([1, 2, 3, 1]))
+    # print(contains_duplicate.solution([1, 2, 3, 1]))
+    print(valid_anagram.solution("anagram", "nagaram"))
