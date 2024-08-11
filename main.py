@@ -5,8 +5,10 @@
 
 import contains_duplicate
 import valid_anagram
+import two_sum
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # print(contains_duplicate.solution([1, 2, 3, 1]))
-    print(valid_anagram.solution("anagram", "nagaram"))
+    # print(valid_anagram.solution("anagram", "nagaram"))
+    print(two_sum.solution([2, 7, 11, 15], 20))
