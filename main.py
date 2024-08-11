@@ -11,4 +11,4 @@ import two_sum
 if __name__ == '__main__':
     # print(contains_duplicate.solution([1, 2, 3, 1]))
     # print(valid_anagram.solution("anagram", "nagaram"))
-    print(two_sum.solution([2, 7, 11, 15], 20))
+    print(two_sum.solution([2, 7, 11, 15], 26))
