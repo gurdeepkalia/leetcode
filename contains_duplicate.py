@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/contains-duplicate/
 def solution(nums):
     hashset = set()
     for n in nums:
