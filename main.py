@@ -7,10 +7,12 @@ import contains_duplicate
 import valid_anagram
 import two_sum
 import group_anagram
+import top_k_frequent_elements
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # print(contains_duplicate.solution([1, 2, 3, 1]))
     # print(valid_anagram.solution("anagram", "nagaram"))
     # print(two_sum.solution([2, 7, 11, 15], 26))
-    print(group_anagram.solution(["eat", "tea", "tan", "ate", "nat", "bat"]))
+    # print(group_anagram.solution(["eat", "tea", "tan", "ate", "nat", "bat"]))
+    print(top_k_frequent_elements.solution([1, 1, 1, 2, 2, 3], 2))
