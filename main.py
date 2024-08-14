@@ -8,6 +8,7 @@ import valid_anagram
 import two_sum
 import group_anagram
 import top_k_frequent_elements
+import product_of_array_except_self
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -15,4 +16,5 @@ if __name__ == '__main__':
     # print(valid_anagram.solution("anagram", "nagaram"))
     # print(two_sum.solution([2, 7, 11, 15], 26))
     # print(group_anagram.solution(["eat", "tea", "tan", "ate", "nat", "bat"]))
-    print(top_k_frequent_elements.solution([1, 1, 1, 2, 2, 3], 2))
+    # print(top_k_frequent_elements.solution([1, 1, 1, 2, 2, 3], 2))
+    print(product_of_array_except_self.solution([1, 2, 3, 4]))
