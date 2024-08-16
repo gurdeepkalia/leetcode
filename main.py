@@ -11,6 +11,7 @@ from arrays_and_hashing import (contains_duplicate,
                                 top_k_frequent_elements,
                                 product_of_array_except_self,
                                 valid_sudoku)
+from two_pointers import (valid_palindrome)
 
 
 # Press the green button in the gutter to run the script.
@@ -21,7 +22,7 @@ if __name__ == '__main__':
     # print(group_anagram.solution(["eat", "tea", "tan", "ate", "nat", "bat"]))
     # print(top_k_frequent_elements.solution([1, 1, 1, 2, 2, 3], 2))
     # print(product_of_array_except_self.solution([1, 2, 3, 4]))
-    '''print(valid_sudoku.solution([["5", "3", ".", ".", "7", ".", ".", ".", "."]
+    """print(valid_sudoku.solution([["5", "3", ".", ".", "7", ".", ".", ".", "."]
                                 , ["6", ".", ".", "1", "9", "5", ".", ".", "."]
                                 , [".", "9", "8", ".", ".", ".", ".", "6", "."]
                                 , ["8", ".", ".", ".", "6", ".", ".", ".", "3"]
@@ -30,6 +31,7 @@ if __name__ == '__main__':
                                 , [".", "6", ".", ".", ".", ".", "1", "8", "."]
                                 , [".", ".", ".", "4", "1", "9", ".", ".", "5"]
                                 , [".", ".", ".", ".", "8", ".", ".", "7", "9"]]))
-    '''
-    print(longest_consecutive_seq.solution([100, 200, 4, 1, 3, 2]))
+    """
+    # print(longest_consecutive_seq.solution([100, 200, 4, 1, 3, 2]))
+    print(valid_palindrome.solution("A man, a plan, a canal: Panama"))
 
