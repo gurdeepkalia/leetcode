@@ -12,7 +12,8 @@ from arrays_and_hashing import (contains_duplicate,
                                 product_of_array_except_self,
                                 valid_sudoku)
 from two_pointers import (valid_palindrome,
-                          two_sums_sorted_array)
+                          two_sums_sorted_array,
+                          three_sum)
 
 
 # Press the green button in the gutter to run the script.
@@ -35,6 +36,7 @@ if __name__ == '__main__':
     """
     # print(longest_consecutive_seq.solution([100, 200, 4, 1, 3, 2]))
     # print(valid_palindrome.solution("A man, a plan, a canal: Panama"))
-    print(two_sums_sorted_array.solution([-1, 0], -1))
+    # print(two_sums_sorted_array.solution([-1, 0], -1))
+    print(three_sum.solution([-1, 0, 1, 2, -1, -4]))  # [[-1,-1,2],[-1,0,1]]
 
 
