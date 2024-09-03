@@ -14,7 +14,9 @@ from arrays_and_hashing import (contains_duplicate,
 from two_pointers import (valid_palindrome,
                           two_sums_sorted_array,
                           three_sum,
-                          container_with_most_water)
+                          container_with_most_water,
+                          trapping_rain_water)
+from stack import valid_parentheses
 
 
 # Press the green button in the gutter to run the script.
@@ -39,6 +41,9 @@ if __name__ == '__main__':
     # print(valid_palindrome.solution("A man, a plan, a canal: Panama"))
     # print(two_sums_sorted_array.solution([-1, 0], -1))
     # print(three_sum.solution([-1, 0, 1, 2, -1, -4]))  # [[-1,-1,2],[-1,0,1]]
-    print(container_with_most_water.solution([1, 8, 6, 2, 5, 4, 8, 3, 7]))
+    # print(container_with_most_water.solution([1, 8, 6, 2, 5, 4, 8, 3, 7]))
+    # print(trapping_rain_water.solution([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]))
+    print(valid_parentheses.solution("()[]{}"))
+
 
 
