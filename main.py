@@ -16,7 +16,7 @@ from two_pointers import (valid_palindrome,
                           three_sum,
                           container_with_most_water,
                           trapping_rain_water)
-from stack import valid_parentheses
+from stack import (valid_parentheses, minstack)
 
 
 # Press the green button in the gutter to run the script.
@@ -43,7 +43,16 @@ if __name__ == '__main__':
     # print(three_sum.solution([-1, 0, 1, 2, -1, -4]))  # [[-1,-1,2],[-1,0,1]]
     # print(container_with_most_water.solution([1, 8, 6, 2, 5, 4, 8, 3, 7]))
     # print(trapping_rain_water.solution([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]))
-    print(valid_parentheses.solution("()[]{}"))
+    # print(valid_parentheses.solution("()[]{}"))
+    min_stack = minstack.MinStack()
+    min_stack.push(-2)
+    min_stack.push(0)
+    min_stack.push(3)
+    print(min_stack.get_min())  # return -2
+    min_stack.pop()
+    print(min_stack.top())  # return 0
+    print(min_stack.get_min())  # return -2
+
 
 
 
